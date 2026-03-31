@@ -1,0 +1,152 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "last_updated": "2026-03-31",
+    "notes": "Source of truth for all product data. Generated from live GoDaddy store. Prices marked TODO need confirmation from Steve."
+  },
+  "brand": {
+    "name": "Colonial Farms 1776",
+    "tagline": "Craft Proteins",
+    "location": "Maryland",
+    "website": "https://colonialfarms1776.com",
+    "store_url": "https://colonialfarms1776.com/craft-proteins"
+  },
+  "products": [
+    {
+      "slug": "supper-and-appetizer-combo",
+      "name": "Supper and Appetizer Combo",
+      "category": "combo",
+      "price_usd": 40.00,
+      "url": "https://colonialfarms1776.com/craft-proteins/ols/products/supper-and-appetizer-combo",
+      "description": "Pick your protein, appetizer, cheese, and sauce for a complete meal.",
+      "includes": "1x canned protein (28 oz) + 1x appetizer + 1x cheese (8 oz) + 1x sauce (12+ oz)",
+      "options": {
+        "protein": {
+          "label": "Protein for main course (28oz can)",
+          "choices": ["Beef", "Chicken", "Turkey", "Pork"]
+        },
+        "appetizer": {
+          "label": "Protein for appetizer (8-12 oz)",
+          "choices": [
+            {"name": "Summer Sausage", "weight_oz": 12, "upcharge_usd": 0},
+            {"name": "Beef Sticks", "weight_oz": 8, "upcharge_usd": 0},
+            {"name": "Beef Jerky", "weight_oz": 10, "upcharge_usd": 9.00}
+          ]
+        },
+        "cheese": {
+          "label": "Cheese (8 oz)",
+          "choices": ["Smoked Cheddar", "Smoked Gouda"]
+        },
+        "sauce": {
+          "label": "Sauce (12+ oz)",
+          "choices": [
+            "Japanese Teriyaki",
+            "Caribbean Jerk",
+            "Chinese Sweet & Sour",
+            "Sweet Thai Chili",
+            "American BBQ",
+            "Texas Chili"
+          ]
+        }
+      },
+      "status": "active"
+    },
+    {
+      "slug": "4-can-variety-pack-you-pick",
+      "name": "4-can Variety Pack (you pick)",
+      "category": "4-pack",
+      "price_usd": 78.00,
+      "price_per_can_usd": 19.50,
+      "url": "https://colonialfarms1776.com/craft-proteins/ols/products/4-can-variety-pack-you-pick",
+      "description": "4 28oz cans of our Homestyle proteins - you pick each can.",
+      "includes": "4x canned protein (28 oz each)",
+      "options": {
+        "can_1": {"label": "Can 1", "choices": ["Beef", "Chicken", "Turkey", "Pork"]},
+        "can_2": {"label": "Can 2", "choices": ["Beef", "Chicken", "Turkey", "Pork"]},
+        "can_3": {"label": "Can 3", "choices": ["Beef", "Chicken", "Turkey", "Pork"]},
+        "can_4": {"label": "Can 4", "choices": ["Beef", "Chicken", "Turkey", "Pork"]}
+      },
+      "status": "active"
+    },
+    {
+      "slug": "4-can-beef-pack",
+      "name": "4-can Beef Pack",
+      "category": "4-pack",
+      "price_usd": 78.00,
+      "price_per_can_usd": 19.50,
+      "url": "https://colonialfarms1776.com/craft-proteins/ols/products/4-can-beef-pack",
+      "description": "4 28oz cans of our Homestyle Beef",
+      "includes": "4x Beef (28 oz each)",
+      "protein": "Beef",
+      "status": "active"
+    },
+    {
+      "slug": "4-can-chicken-pack",
+      "name": "4-can Chicken Pack",
+      "category": "4-pack",
+      "price_usd": 78.00,
+      "price_per_can_usd": 19.50,
+      "url": "https://colonialfarms1776.com/craft-proteins/ols/products/4-can-chicken-pack",
+      "description": "4 28oz cans of our Homestyle Chicken",
+      "includes": "4x Chicken (28 oz each)",
+      "protein": "Chicken",
+      "status": "active"
+    },
+    {
+      "slug": "4-can-turkey-pack",
+      "name": "4-can Turkey Pack",
+      "category": "4-pack",
+      "price_usd": 78.00,
+      "price_per_can_usd": 19.50,
+      "url": "https://colonialfarms1776.com/craft-proteins/ols/products/4-can-turkey-pack",
+      "description": "4 28oz cans of our Homestyle Turkey",
+      "includes": "4x Turkey (28 oz each)",
+      "protein": "Turkey",
+      "status": "active"
+    },
+    {
+      "slug": "4-can-pork-pack",
+      "name": "4-can Pork Pack",
+      "category": "4-pack",
+      "price_usd": 78.00,
+      "price_per_can_usd": 19.50,
+      "url": "https://colonialfarms1776.com/craft-proteins/ols/products/4-can-pork-pack",
+      "description": "4 28oz cans of our Homestyle Pork",
+      "includes": "4x Pork (28 oz each)",
+      "protein": "Pork",
+      "status": "active"
+    }
+  ],
+  "component_products": {
+    "_note": "These items are not sold individually on the store — they appear as options within combo/pack products. Tracked here for Amazon individual listing potential and inventory reference.",
+    "canned_meats": [
+      {"name": "Homestyle Beef", "weight_oz": 28, "brand": "Colonial Farms 1776", "supplier": "TODO: third-party co-packer", "shelf_life_years": "TODO", "cost_per_can_usd": "TODO"},
+      {"name": "Homestyle Chicken", "weight_oz": 28, "brand": "Colonial Farms 1776", "supplier": "TODO: third-party co-packer", "shelf_life_years": "TODO", "cost_per_can_usd": "TODO"},
+      {"name": "Homestyle Turkey", "weight_oz": 28, "brand": "Colonial Farms 1776", "supplier": "TODO: third-party co-packer", "shelf_life_years": "TODO", "cost_per_can_usd": "TODO"},
+      {"name": "Homestyle Pork", "weight_oz": 28, "brand": "Colonial Farms 1776", "supplier": "TODO: third-party co-packer", "shelf_life_years": "TODO", "cost_per_can_usd": "TODO"}
+    ],
+    "snacks": [
+      {"name": "Summer Sausage", "weight_oz": 12, "brand": "Wenzel's Farm", "cost_usd": "TODO"},
+      {"name": "Beef Sticks", "weight_oz": 8, "brand": "Wenzel's Farm", "cost_usd": "TODO"},
+      {"name": "Beef Jerky", "weight_oz": 10, "brand": "Wenzel's Farm", "cost_usd": "TODO"}
+    ],
+    "cheeses": [
+      {"name": "Smoked Cheddar", "weight_oz": 8, "brand": "Williams Gourmet Cheese", "cost_usd": "TODO"},
+      {"name": "Smoked Gouda", "weight_oz": 8, "brand": "Williams Gourmet Cheese", "cost_usd": "TODO"}
+    ],
+    "sauces": [
+      {"name": "Japanese Teriyaki", "weight_oz": "12+", "brand": "TODO", "cost_usd": "TODO"},
+      {"name": "Caribbean Jerk", "weight_oz": "12+", "brand": "TODO", "cost_usd": "TODO"},
+      {"name": "Chinese Sweet & Sour", "weight_oz": "12+", "brand": "TODO", "cost_usd": "TODO"},
+      {"name": "Sweet Thai Chili", "weight_oz": "12+", "brand": "TODO", "cost_usd": "TODO"},
+      {"name": "American BBQ", "weight_oz": "12+", "brand": "TODO", "cost_usd": "TODO"},
+      {"name": "Texas Chili", "weight_oz": "12+", "brand": "TODO", "cost_usd": "TODO"}
+    ]
+  },
+  "store_categories": [
+    {"name": "All Products", "url": "/craft-proteins/ols/all", "product_count": 6},
+    {"name": "Available Products", "url": "/craft-proteins/ols/categories/available-products", "product_count": 5},
+    {"name": "Bundles", "url": "/craft-proteins/ols/categories/bundles", "product_count": 0, "status": "coming_soon"},
+    {"name": "Suppers", "url": "/craft-proteins/ols/categories/suppers", "product_count": 0, "status": "coming_soon"}
+  ]
+}
